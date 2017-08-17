@@ -4,7 +4,7 @@ import fs from "fs";
 import { basename, extname } from "path";
 
 import { compile } from "svelte";
-import Babel from "babel-core";
+const babel = require("babel-core");
 
 const BabelConfig = {
   presets: [
