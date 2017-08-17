@@ -42,7 +42,7 @@ export default function loader(m, filename) {
 
   try {
       svelteResult = compile(code, options);
-      result = Babel.transform(svelteResult.code, BabelConfig);
+      result = babel.transform(svelteResult.code, BabelConfig);
   } catch (err) {
       throw Error(err.toString() + '\n' + err.frame);
   }
