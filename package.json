@@ -4,6 +4,7 @@
   "description": "Node register for Svelte Loader",
   "main": "lib/compiler.js",
   "scripts": {
+    "build": "babel src --out-dir lib",
     "test": "mocha --opts mocha.opts"
   },
   "repository": {
@@ -18,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/siminino/svelte-register/issues"
   },
-  "homepage": "https://github.com/siminino/svelte-register#readme"
+  "homepage": "https://github.com/siminino/svelte-register#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "mocha": "^3.5.0"
+  }
 }
