@@ -2,7 +2,7 @@
   "name": "svelte-register",
   "version": "0.0.1",
   "description": "Node register for Svelte Loader",
-  "main": "lib/compiler.js",
+  "main": "lib/register.js",
   "scripts": {
     "build": "babel src --out-dir lib",
     "prepare": "npm run build",

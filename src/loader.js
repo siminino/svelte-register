@@ -29,7 +29,7 @@ function capitalize(str) {
 	return str[0].toUpperCase() + str.slice(1);
 }
 
-function loader(m, filename) {
+export default function loader(m, filename) {
   const code = fs.readFileSync(filename, "utf8");
   const options = {};
 
@@ -49,5 +49,3 @@ function loader(m, filename) {
 
   m._compile(result.code, filename);
 }
-
-require.extensions[".html"] = loader;
