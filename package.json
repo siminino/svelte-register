@@ -8,6 +8,10 @@
     "prepare": "npm run build",
     "test": "mocha --opts mocha.opts"
   },
+  "files": [
+    "lib",
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/siminino/svelte-register.git"
