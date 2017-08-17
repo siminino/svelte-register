@@ -1,6 +1,6 @@
 {
   "name": "svelte-register",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node register for Svelte Loader",
   "main": "lib/register.js",
   "scripts": {
