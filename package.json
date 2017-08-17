@@ -27,9 +27,12 @@
   "homepage": "https://github.com/siminino/svelte-register#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.6.0",
     "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "svelte": "^1.30.0",
+    "babel-core": "^6.26.0"
   }
 }
