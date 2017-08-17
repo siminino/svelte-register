@@ -5,6 +5,7 @@
   "main": "lib/compiler.js",
   "scripts": {
     "build": "babel src --out-dir lib",
+    "prepare": "npm run build",
     "test": "mocha --opts mocha.opts"
   },
   "repository": {
