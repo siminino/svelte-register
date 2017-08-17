@@ -1,0 +1,22 @@
+{
+  "name": "svelte-register",
+  "version": "0.0.1",
+  "description": "Node register for Svelte Loader",
+  "main": "lib/compiler.js",
+  "scripts": {
+    "test": "mocha --opts mocha.opts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siminino/svelte-register.git"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "author": "victor.oliveira.ti@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siminino/svelte-register/issues"
+  },
+  "homepage": "https://github.com/siminino/svelte-register#readme"
+}
