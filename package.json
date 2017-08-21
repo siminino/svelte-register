@@ -4,9 +4,10 @@
   "description": "Node register for Svelte Loader",
   "main": "lib/register.js",
   "scripts": {
-    "build": "babel src --out-dir lib",
+    "build": "npm run lint && babel src --out-dir lib",
     "prepare": "npm run build",
-    "test": "mocha --opts mocha.opts"
+    "test": "npm run lint && mocha --opts mocha.opts",
+    "lint": "eslint src"
   },
   "files": [
     "lib",
