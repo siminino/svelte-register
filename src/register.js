@@ -1,3 +1,3 @@
-import loader from "./loader";
+import loader from './loader';
 
-require.extensions[".html"] = loader;
+require.extensions['.html'] = loader;
